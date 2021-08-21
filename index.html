@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook air</title>
+    <!-- --------------------
+        Bootstrap link 
+    ------------------------->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="Assets/image/macbook.jpg" alt="">
+            </div>
+            <div class="col-md-6">
+                <h1>Customize your blue 24-inch iMac with Apple M1 chip</h1>
+                <p>Apple M1 chip with 8 core CPU with 4 performances cores and 4 efficiency cores, 7 -core GPU, and
+                    16-core Neural Engine 8GB unified memory 256GB SSD storage Two thunderbolt/USB 4 ports Magic Mouse
+                    magic Keyboard-US English</p>
+                <!------------------
+                    Memory section 
+                -------------------->
+                <section>
+                    <h6>Memory</h5>
+                        <button id="8gb-price" class="btn btn-outline-secondary">8GB unified memory</button>
+                        <button id="16gb-price" class="btn btn-outline-secondary">16GB unified memory</button>
+                        <!-------------------
+                    Memory section end 
+                -------------------->
+                </section>
+                <!------------------
+                    Storage section 
+                -------------------->
+                <section>
+                    <h6>Storage</h5>
+                        <button id="256gb-price" class="btn btn-outline-secondary">256GB SSD storage</button>
+                        <button id="512gb-price" class="btn btn-outline-secondary">512GB SSD storage</button>
+                        <button id="1tb-price" class="btn btn-outline-secondary">1TB SSD storage</button>
+
+                </section>
+                <!------------------
+                    Storage section end 
+                -------------------->
+                <!------------------
+                    Delivery option 
+                -------------------->
+                <section class="mt-3">
+                    <h6>Choose your delivery option</h6>
+                        <div class="row ">
+                            <div id="free-delivery" class="col-md-6 p-0">
+                                <button class="btn btn-outline-secondary  ">Friday, AUG 25 FREE prime Delivery</button>
+                            </div>
+                            <div class="col-md-6 p-0 ">
+                                <button id="paid-delivery" class="btn btn-outline-secondary">Friday,AUG 21 Delivery charge $20</button>
+                            </div>
+                        </div>
+
+
+
+                </section>
+                <!------------------
+                    Delivery option end
+                -------------------->
+                <!------------------
+                    Price Cart
+                -------------------->
+                <section>
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                 <td class="fs-6 fw-bold">Best Price</td>
+                                <td class="fw-bold">
+                                   $<span>1299</span>
+                                </td>
+                             </tr>
+                            <tr>
+                                 <td class="fs-6 fw-bold">Extra Memory Cost</td>
+                                <td class="fw-bold">
+                                   $<span id="memory-price">0</span>
+                                </td>
+                             </tr>
+                            <tr>
+                                 <td class="fs-6 fw-bold">Extra Storge Cost</td>
+                                <td class="fw-bold">
+                                   $<span id="storage-price">0</span>
+                                </td>
+                             </tr>
+                            <tr>
+                                 <td class="fs-6 fw-bold">Delivery Cost</td>
+                                <td class="fw-bold">
+                                   $<span id="delivery-price">0</span>
+                                </td>
+                             </tr>
+                             <thead></thead>
+                             <tr>
+                                <td class="fs-6 fw-bold">Total</td>
+                               <td class="fw-bold">
+                                  $<span>0</span>
+                               </td>
+                            </tr>
+                          
+
+
+
+                        </tbody>
+                    </table>
+                </section>
+                 <!------------------
+                    Price Cart End
+                -------------------->
+                  <!-----------------------
+                                Bonus Section added 
+                    ------------------------->
+                 <section>
+                         <h5>Add promo Code</h5>
+                         <input>
+                         <button class="btn btn-danger">Apply</button>
+
+                 </section>
+                 <!-- Intotal -->
+                 
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div my-5 class="col-md-12 d-flex justify-content-center">
+                <p class="fs-3 fw-bold">Total: $<span>1299</span></p>
+            </div>
+        </div>
+    </section>
+    <!------------------- 
+        javascript link 
+    ------------------>
+    <script src="Assets/javascript/script.js"></script>
+</body>
+
+</html>
